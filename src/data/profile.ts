@@ -3,7 +3,7 @@ export const profile = {
   firstName: "Víctor",
   role: "Full Stack Developer Junior",
   location: "Gran Canaria, España",
-  email: "victorperezsosa2001@gmail.com",
+  email: "ihavedepression3@gmail.com",
   github: "https://github.com/vititoOX",
   linkedin: "https://www.linkedin.com/in/víctor-pérez-sosa-5960b1356/",
   summary:
@@ -33,4 +33,3 @@ export const profile = {
     cv: "/cv-victor-perez-sosa.pdf",
   },
 } as const;
-
