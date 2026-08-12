@@ -30,6 +30,7 @@ export const projects: Project[] = [
     featured: true,
     primary: true,
     status: "published",
+    image: "/FotoPortadaNominaHub.png",
     screenshots: [],
     details: {
       problem:
@@ -66,6 +67,7 @@ export const projects: Project[] = [
     featured: true,
     primary: false,
     status: "published",
+    image: "/FotoPortadaCafeApp.png",
     screenshots: [],
     details: {
       problem:
