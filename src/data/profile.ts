@@ -32,7 +32,7 @@ export const profile = {
     dates: "sept. 2024 – abr. 2026",
   },
   assets: {
-    photo: "/victor.webp",
+    photo: "/VictorFoto.jpeg",
     cv: "/cv-victor-perez-sosa.pdf",
   },
 } as const;

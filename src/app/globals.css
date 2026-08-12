@@ -173,12 +173,13 @@ button { font: inherit; color: inherit; }
 .technology-card { min-height: 255px; padding: 26px; border: 2px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); transition: transform .2s ease; }
 .technology-card:hover { transform: translateY(-3px); }
 .technology-card.accent-1 { background: var(--blue); color: white; }
-.technology-card.accent-2 { background: var(--surface); }
+.technology-card.accent-2 { background: #222c40; color: #f7f9ff; }
 .technology-card.accent-3 { background: var(--yellow); color: #11131a; }
-.technology-card.accent-4 { background: var(--mint); color: #11131a; }
-.tech-number { font-family: var(--font-geist-mono); font-size: .75rem; font-weight: 900; opacity: .75; }
+.technology-card.accent-4 { background: #6de1c9; color: #11131a; }
+.tech-number { font-family: var(--font-geist-mono); font-size: .75rem; font-weight: 900; opacity: .85; }
 .technology-card h3 { min-height: 62px; margin: 20px 0; font-size: 1.35rem; text-transform: uppercase; }
-.technology-card .tag-list span { background: color-mix(in srgb, var(--surface) 80%, transparent); color: #11131a; border-color: #11131a; }
+.technology-card .tag-list span { padding: 6px 9px; background: color-mix(in srgb, var(--surface) 78%, transparent); color: inherit; border: 1px solid color-mix(in srgb, var(--line) 28%, transparent); border-radius: 999px; font-family: var(--font-geist-mono); font-size: .63rem; font-weight: 800; text-transform: uppercase; }
+[data-theme="dark"] .technology-card .tag-list span { background: rgba(255,255,255,.08); border-color: rgba(246,247,251,.18); }
 
 .education-card { display: grid; grid-template-columns: auto 1fr; gap: 30px; align-items: center; padding: 32px; }
 .education-acronym { width: 108px; height: 108px; display: grid; place-items: center; background: var(--blue); color: white; border: 3px solid var(--line); border-radius: 22px; box-shadow: 6px 6px 0 var(--line); font-size: 2rem; font-weight: 950; transform: rotate(-3deg); }

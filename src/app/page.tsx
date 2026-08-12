@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { ArrowRight, BriefcaseBusiness as Linkedin, Download, GitBranch as Github, MapPin } from "lucide-react";
 import Link from "next/link";
 import { ContactCopy } from "@/components/ContactCopy";
+import { ProfileVisual } from "@/components/ProfileVisual";
 import { ProjectCard } from "@/components/ProjectCard";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -46,6 +47,9 @@ export default function Home() {
                 <MapPin size={18} /> {profile.availability}
               </span>
             </div>
+          </Reveal>
+          <Reveal>
+            <ProfileVisual imageAvailable={true} />
           </Reveal>
         </div>
       </section>
