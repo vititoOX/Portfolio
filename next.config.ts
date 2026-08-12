@@ -26,6 +26,21 @@ const nextConfig: NextConfig = {
         source: "/:path*",
         headers: securityHeaders,
       },
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "portfolio-vititooxs-projects.vercel.app",
+          },
+        ],
+        headers: [
+          {
+            key: "X-Robots-Tag",
+            value: "index, follow",
+          },
+        ],
+      },
     ];
   },
 };
