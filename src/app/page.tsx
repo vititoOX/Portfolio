@@ -104,7 +104,16 @@ export default function Home() {
                 <h3>{group.title}</h3>
                 <div className="tag-list tag-list-strong">
                   {group.items.map((item) => (
-                    <span key={item}>{item}</span>
+                    <span
+                      key={item}
+                      style={{
+                        background: index < 2 ? "rgba(255,255,255,.12)" : "rgba(17,19,26,.08)",
+                        color: index < 2 ? "#f7f9ff" : "#11131a",
+                        borderColor: index < 2 ? "rgba(255,255,255,.34)" : "rgba(17,19,26,.22)",
+                      }}
+                    >
+                      {item}
+                    </span>
                   ))}
                 </div>
               </article>
