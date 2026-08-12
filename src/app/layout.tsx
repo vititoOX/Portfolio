@@ -8,7 +8,7 @@ import "./globals.css";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
-const siteUrl = "https://portfolio.example";
+const siteUrl = "https://portfolio-vititooxs-projects.vercel.app";
 const siteTitle = "Portfolio profesional | Desarrollador Full Stack Junior";
 const siteDescription =
   "Portfolio profesional que muestra experiencia full stack, habilidades técnicas y proyectos relevantes. Disponible para trabajo remoto.";
