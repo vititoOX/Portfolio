@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main>
       <section className="hero section-shell" id="inicio">
-        <div className="hero-layout hero-layout-solo">
+        <div className="hero-layout">
           <Reveal className="hero-copy">
             <p className="eyebrow">Portfolio profesional</p>
             <h1>{profile.name}<span aria-hidden="true">.</span></h1>
