@@ -18,6 +18,7 @@ export function ProfileVisual({ imageAvailable }: { imageAvailable: boolean }) {
           priority
           sizes="(max-width: 768px) 100vw, 42vw"
           className="portrait-image"
+          style={{ objectPosition: "center 32%" }}
           onError={() => setHasImage(false)}
         />
       ) : (
