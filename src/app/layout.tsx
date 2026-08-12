@@ -8,16 +8,16 @@ import "./globals.css";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
-const siteUrl = "https://vitito.vercel.app";
-const siteTitle = "Víctor Pérez Sosa | Desarrollador Full Stack Junior";
+const siteUrl = "https://portfolio.example";
+const siteTitle = "Portfolio profesional | Desarrollador Full Stack Junior";
 const siteDescription =
-  "Portfolio de Víctor Pérez Sosa, desarrollador full stack junior en Gran Canaria. Proyectos en Angular, Flask, React y PostgreSQL. Disponible para remoto en España.";
+  "Portfolio profesional que muestra experiencia full stack, habilidades técnicas y proyectos relevantes. Disponible para trabajo remoto.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: siteTitle,
-    template: "%s | Víctor Pérez Sosa",
+    template: "%s | Portfolio profesional",
   },
   description: siteDescription,
   alternates: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     type: "website",
     locale: "es_ES",
-    siteName: "Portfolio de Víctor Pérez Sosa",
+    siteName: "Portfolio profesional",
     url: siteUrl,
   },
   twitter: {

@@ -9,11 +9,11 @@ export function ProfileVisual({ imageAvailable }: { imageAvailable: boolean }) {
   const [hasImage, setHasImage] = useState(imageAvailable);
 
   return (
-    <div className="portrait-card" aria-label="Espacio reservado para la fotografía profesional de Víctor">
+    <div className="portrait-card" aria-label="Espacio reservado para la fotografía profesional">
       {hasImage ? (
         <Image
           src={profile.assets.photo}
-          alt="Víctor Pérez Sosa"
+          alt="Foto profesional"
           fill
           priority
           sizes="(max-width: 768px) 100vw, 42vw"
@@ -24,7 +24,7 @@ export function ProfileVisual({ imageAvailable }: { imageAvailable: boolean }) {
         <div className="portrait-placeholder">
           <span className="portrait-code"><Code2 size={38} /></span>
           <p>FOTO PROFESIONAL</p>
-          <small>Coloca victor.webp en public/images</small>
+          <small>Incluye una fotografía profesional en public/images</small>
           <span className="location-chip"><MapPin size={14} /> {profile.location}</span>
         </div>
       )}

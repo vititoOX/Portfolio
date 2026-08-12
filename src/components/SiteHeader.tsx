@@ -21,7 +21,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="nav-shell">
         <Link className="brand" href="/" onClick={() => setOpen(false)}>
-          Víctor Pérez <span aria-hidden="true">/&gt;</span>
+          Portfolio <span aria-hidden="true">/&gt;</span>
         </Link>
 
         <nav className="desktop-nav" aria-label="Navegación principal">
@@ -38,7 +38,7 @@ export function SiteHeader() {
             href={profile.github}
             target="_blank"
             rel="noreferrer"
-            aria-label="GitHub de Víctor"
+            aria-label="GitHub"
           >
             <Github size={18} />
           </a>
@@ -47,14 +47,14 @@ export function SiteHeader() {
             href={profile.linkedin}
             target="_blank"
             rel="noreferrer"
-            aria-label="LinkedIn de Víctor"
+            aria-label="LinkedIn"
           >
             <Linkedin size={18} />
           </a>
           <a
             className="icon-button desktop-social"
             href={`mailto:${profile.email}`}
-            aria-label="Enviar un email a Víctor"
+            aria-label="Enviar un email"
           >
             <Mail size={18} />
           </a>

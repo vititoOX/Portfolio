@@ -1,6 +1,6 @@
-# Portfolio de Víctor Pérez Sosa
+# Portfolio web profesional
 
-Portfolio profesional de Víctor Pérez Sosa, Full Stack Developer Junior en Gran Canaria. El sitio presenta su perfil técnico, experiencia, tecnologías, formación y proyectos con una identidad visual neo-brutalista.
+Portfolio web profesional construido con Next.js, React y TypeScript. Presenta un perfil técnico, experiencia, tecnologías y proyectos destacados en una interfaz moderna.
 
 ## Tecnologías
 
@@ -10,16 +10,16 @@ Portfolio profesional de Víctor Pérez Sosa, Full Stack Developer Junior en Gra
 - Tailwind CSS 4
 - Lucide React
 
-## Instalación y desarrollo
+## Instalación
 
 ```bash
 npm install
 npm run dev
 ```
 
-Abre [http://localhost:3000](http://localhost:3000).
+Accede a la aplicación en [http://localhost:3000](http://localhost:3000).
 
-Para comprobar la versión de producción:
+## Producción
 
 ```bash
 npm run lint
@@ -27,7 +27,7 @@ npm run build
 npm start
 ```
 
-## Estructura
+## Estructura del proyecto
 
 ```text
 src/
@@ -38,25 +38,15 @@ src/
 public/              Recursos estáticos
 ```
 
-## Actualizar el contenido
+## Contenido editable
 
-- Datos personales, enlaces, textos y formación: `src/data/profile.ts`
+- Perfil y enlaces: `src/data/profile.ts`
 - Proyectos: `src/data/projects.ts`
 - Experiencia: `src/data/experience.ts`
 - Tecnologías: `src/data/technologies.ts`
 
-Cada objeto de `projects.ts` admite nombre, slug, descripción, portada, tecnologías, GitHub, demo, estado destacado, explicación larga, capturas, problema, solución, participación, dificultades y aprendizajes. Las páginas individuales se generan automáticamente en `/projects/[slug]`.
+Los datos del portfolio se generan desde `src/data` y las páginas de proyecto se crean automáticamente en `/projects/[slug]`.
 
-## Foto y CV
+## Despliegue
 
-- Añade la fotografía profesional en `public/images/victor.webp`. Mientras no exista se muestra un placeholder cuidado.
-- Añade el CV en `public/cv-victor-perez-sosa.pdf`. Mientras no exista el botón aparece desactivado y no genera un enlace roto.
-
-## Despliegue en Vercel
-
-1. Sube el repositorio a GitHub.
-2. Importa el repositorio en Vercel.
-3. Vercel detectará Next.js automáticamente; no hacen falta ajustes adicionales.
-4. El dominio canónico está configurado en `https://vitito.vercel.app` dentro de `src/app/layout.tsx`.
-
-No se incluye ningún número de teléfono ni se han inventado proyectos, fechas, empresas o responsabilidades.
+El proyecto está listo para desplegarse en cualquier plataforma compatible con Next.js.

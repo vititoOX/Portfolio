@@ -358,7 +358,7 @@ button { font: inherit; color: inherit; }
   .hero-description { box-shadow: none; border: 1px solid #ccc; padding: 10pt; color: #333; }
   .hero-actions { display: none !important; }
 
-  .hero-socials span::after { content: " · Email: victorperezsosa2001@gmail.com · GitHub: github.com/vititoOX"; }
+  .hero-socials span::after { content: " · Email: victorperezsosa2001@gmail.com · GitHub"; }
 
   .content-section { padding: 16pt 0; page-break-inside: avoid; }
   .contact-section { margin-top: 0; padding: 16pt 0; background: #fff !important; color: #111 !important; border: none !important; }

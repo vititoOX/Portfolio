@@ -7,7 +7,7 @@ import { projects } from "@/data/projects";
 export const metadata: Metadata = {
   title: "Proyectos",
   description:
-    "Proyectos de desarrollo de software de Víctor Pérez Sosa: NominaHub y Cafetería Escolar.",
+    "Proyectos de desarrollo de software full stack con énfasis en soluciones web y experiencia de usuario.",
 };
 
 export default function ProjectsPage() {
