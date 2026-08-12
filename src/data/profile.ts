@@ -2,8 +2,8 @@ export const profile = {
   name: "Víctor Pérez Sosa",
   firstName: "Víctor",
   role: "Desarrollador Full Stack Junior",
-  location: "España",
-  availability: "Disponible para remoto en España",
+  location: "Gran Canaria, España",
+  availability: "Gran Canaria · Híbrido / remoto",
   email: "victorperezsosa2001@gmail.com",
   github: "https://github.com/vititoOX",
   linkedin: "https://www.linkedin.com/in/víctor-pérez-sosa-5960b1356/",
@@ -32,7 +32,7 @@ export const profile = {
     dates: "sept. 2024 – abr. 2026",
   },
   assets: {
-    photo: "/VictorFoto.jpeg",
+    photo: "/victor.webp",
     cv: "/cv-victor-perez-sosa.pdf",
   },
 } as const;
